@@ -1,0 +1,111 @@
+body{
+    padding-left: 25%;
+    font-family:tohoma,serif;font: size 14px;
+    background-image:url(v.jpg);
+    background-attachment: fixed;
+    background-position-x: inherit;
+
+}
+h1{color:#000fff}
+h1,h2,h3,h4{font-family: 'Times New Roman', Times, serif;}
+#header{border-color: #933;
+    border-width:medium;
+    border-style: solid;
+    font-size: 14px;
+width: 800px;
+height: 900px;
+background-image: url(l.jpg);
+background-attachment: fixed; 
+background-position: center;
+border-radius: 5px 5px 5px 5px;}/*ايضا يوجد 
+border-radius   من اجل الزوايا الملتويةd
+direction:rtl or ltr*/
+#menu ul{
+    list-style-type: none;/*الغاء النقطة*/
+    margin-top:12px;
+    margin-right: -33px;
+}
+#menu ul li{
+    display: inline;
+}
+.menu{
+    direction: rtl;
+    border-color: rgb(44, 19, 19);
+    border-width:medium;
+    border-style: solid;
+    width: 800px;
+    height: 40px;
+margin-top: 3px;
+background-color: rgb(54, 3, 3);}
+#menu ul li a{
+    text-decoration: none;/*بدون نوع خط*/
+text-decoration: none;
+color: rgb(206, 154, 154);
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 16px;
+font-weight: bold;
+border: mediumturquoise solid 1px;
+padding: 7px 7px 7px 7px;
+border-radius: 5px 5px 5px 5px;
+background-color: rgb(44, 19, 19);
+
+}
+#menu ul li a:hover{
+    background-color: darkred;
+
+}
+.content{margin-top: 3px;
+    border:  rgb(134, 39, 39) medium solid;
+    width: 800px;
+    height: 326px;
+    background-color: rgb(59, 46, 41);}
+    .text{
+        width: 580px;
+        border: darkturquoise solid 1px;
+        float: right;
+        direction: rtl;
+        margin: 8px 4px 2px 2px;}
+    .imgdiv{margin: 2px 2px 6px 2px ;
+        float:left;
+        width: 190px;
+    border: solid 1px rgb(209, 167, 167);}
+    .img1{height: 210px;
+    width: 190px;
+border-radius: 6px 6px 6px 6px   ;}
+.title{padding: 3px 3px 5px;
+color: rgb(0, 0, 0);
+font-family: cursive;
+font-size: x-large;
+font-weight:bold;
+text-shadow: blanchedalmond 0px 2px;
+}  
+.details{padding: 3px 3px 3px 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 16px;
+color: rgb(205, 222, 224);}      
+.details a:hover{
+    color: cornsilk;
+    text-decoration:underline ;
+}
+.marquee{
+    COLor:rgb(190, 29, 29);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: bold;
+    border:solid red 1px;
+    border-radius: 4px 4px 4px 4px ;
+    height: 30px;
+    width: 800px;
+    margin-top: 2px;
+}
+.foter{
+background-color: rgb(106, 83, 119);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: center;
+font-size: 12px;
+border: navy solid 1px;
+border-radius: 3px 3px 3px 3px;
+margin-top: 2px;
+width: 81%;
+
+}
